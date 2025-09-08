@@ -1,0 +1,49 @@
+.toDoFormSection {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.toDoForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toDoInput {
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+
+.submitBtn {
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0 0.2rem 0.2rem 0;
+  transition: all 0.3s ease-in-out;
+}
+.submitBtn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.submitBtn:hover {
+  background-color: rgb(14, 255, 34);
+  transition: all 0.3s ease-in-out;
+}
+
+.errorMsg {
+  color: coral;
+  margin-top: 0.5rem;
+  letter-spacing: 0.15rem;
+}

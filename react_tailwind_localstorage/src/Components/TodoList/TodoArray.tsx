@@ -10,6 +10,7 @@ export default function TodoArray() {
   }
 
   if (todos.length === 0) {
+    localStorage.removeItem("todos");
     return <div className="title">Nincs teendő 😊</div>;
   }
 

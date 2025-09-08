@@ -1,0 +1,9 @@
+@import "CSS/reset.css";
+@import "CSS/pageTitle.css";
+@import "CSS/form.css";
+@import "CSS/todo.css";
+
+body {
+  background-color: rgb(39, 39, 39);
+  color: rgb(14, 255, 34);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="script.js"></script>
+    <title>To Do App</title>
+  </head>
+  <body>
+    <h1 class="pageTitle">To Do App</h1>
+
+    <section class="toDoFormSection">
+      <form id="toDoForm" class="toDoForm">
+        <input
+          type="text"
+          id="toDoInput"
+          class="toDoInput"
+          placeholder="Feladat megadása..."
+          required
+        />
+        <button class="submitBtn" id="submitBtn" type="submit">
+          <img id="submitIcon" src="./Icons/plus.svg" alt="add icon" />
+        </button>
+      </form>
+      <p id="errorMsg" class="errorMsg"></p>
+    </section>
+
+    <section class="toDoListSection">
+      <ul id="toDoList" class="toDoList"></ul>
+    </section>
+  </body>
+</html>

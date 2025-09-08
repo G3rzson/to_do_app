@@ -1,0 +1,82 @@
+.toDoListSection {
+  padding: 1rem;
+}
+
+.toDoList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-right: 0.5rem;
+  height: 50vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(14, 255, 34) rgba(255, 255, 255, 0.05);
+}
+
+.todoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.todoBtnContainer {
+  display: flex;
+}
+
+.todoText {
+  font-size: 1.5rem;
+  list-style-type: none;
+  padding-left: 0.5rem;
+}
+
+.btn {
+  padding: 0.2rem;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.deleteBtn {
+  background-color: rgba(255, 68, 0, 0.7);
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+
+.deleteBtn:hover {
+  background-color: orangered;
+  transition: all 0.3s ease-in-out;
+}
+
+.editBtn {
+  background-color: rgba(255, 166, 0, 0.7);
+}
+
+.editBtn:hover {
+  background-color: orange;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.emptyList {
+  text-align: center;
+  margin: 3rem 0;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.2rem;
+}
+
+@media (min-width: 600px) {
+  .toDoListSection {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
