@@ -1,6 +1,6 @@
 # Fullstack ToDo App
 
-Ez egy **Fullstack ToDo alkalmazás** React (Vite + TypeScript) frontenddel és Node.js (Express + TypeScript) backenddel, MongoDB adatbázissal.
+Ez egy **Fullstack ToDo alkalmazás** React (Vite + TypeScript) frontenddel és Node.js (Express + TypeScript) backenddel, Mongoose MongoDB adatbázissal.
 
 # Technológiák:
 
