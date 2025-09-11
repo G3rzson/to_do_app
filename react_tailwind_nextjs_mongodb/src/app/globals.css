@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@layer base {
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(212, 212, 216) rgb(39, 39, 42);
+  }
+}
